@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ваш профиль"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/total_points_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💰 Всего баллов: 0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@color/green"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/total_visits_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Всего посещений: 0"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/visited_places_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏛️ Посещено мест: 0"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/last_visit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏰ Последнее посещение: еще не было"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

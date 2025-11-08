@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/navigation_catalog"
+        android:icon = "@drawable/ic_catalog"
+        android:title="Куда сходить?"/>
+    <item
+        android:id = "@+id/navigation_profile"
+        android:icon = "@drawable/ic_profile"
+        android:title="Профиль"/>
+    <item
+        android:id = "@+id/navigation_rating"
+        android:icon = "@drawable/ic_rating"
+        android:title="Рейтинг"/>
+    <item
+        android:id="@+id/navigation_scanner"
+        android:icon="@drawable/ic_scanner"
+        android:title="Сканер" />
+</menu>
